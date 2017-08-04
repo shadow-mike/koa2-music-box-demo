@@ -1,0 +1,23 @@
+{
+  "name": "koa2-music-box-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon app.js\""
+  },
+  "main": "app.js",
+  "repository": "git@github.com:shadow512122313/koa2-music-box-demo.git",
+  "author": "shadow512122313 <512122313@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/node": "^8.0.19",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0"
+  }
+}
