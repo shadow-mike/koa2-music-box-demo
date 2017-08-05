@@ -11,13 +11,20 @@
   "license": "MIT",
   "devDependencies": {
     "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-json": "^2.0.16",
+    "@types/koa-router": "^7.0.22",
     "@types/node": "^8.0.19",
+    "@types/superagent": "^3.5.3",
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0",
     "typescript": "^2.4.2"
   },
   "dependencies": {
     "koa": "^2.3.0",
-    "koa-bodyparser": "^4.2.0"
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.2.1",
+    "superagent": "^3.5.2"
   }
 }
