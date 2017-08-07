@@ -43,6 +43,12 @@ export default class Api {
     } catch (e) {
       console.log(e)
     }
+    if (data.code && data.code === 200) {
+      data.data = data.data.map((val: any, idx: number) => {
+        let { author, name, link, music, pic } = val
+        return { author, name, link, music, pic }
+      })
+    }
     return data.code ?
        data : {
         code: 400,
