@@ -1,6 +1,7 @@
 # koa2-music-box-demo
 
 音乐盒播放器demo的后端项目。提供音乐搜索，音乐播放，播放量统计（unaccomplished）。
+- 数据来自网易云音乐，数据接口来自music.2333.me
 
 ## 技术栈
 
